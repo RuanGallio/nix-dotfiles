@@ -33,7 +33,7 @@
 
   environment.variables = {
     EDITOR = "hx";
-    BROWSER = "schizofox";
+    BROWSER = "firefox";
   };
   environment.systemPackages = with pkgs; [
     git
@@ -45,7 +45,7 @@
   ];
 
   time = {
-    timeZone = "Europe/Warsaw";
+    timeZone = "America/Sao_Paulo";
     hardwareClockInLocalTime = true;
   };
   hardware.ledger.enable = true;
@@ -77,7 +77,7 @@
   in {
     font = "${pkgs.terminus_font}/share/consolefonts/ter-${variant}.psf.gz";
     earlySetup = true;
-    keyMap = "pl";
+    keyMap = "us-acentos";
   };
 
   boot.binfmt.registrations = lib.genAttrs ["appimage" "AppImage"] (ext: {

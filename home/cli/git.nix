@@ -2,8 +2,8 @@
   home.packages = with pkgs; [zsh-forgit gitflow];
   programs.git = {
     enable = true;
-    userName = "sioodmy";
-    userEmail = "hello@sioodmy.dev";
+    userName = "RuanGallio";
+    userEmail = "ruangallio1@gmail.com";
     signing = {
       key = "056CFD15A9F99B0E";
       signByDefault = false;

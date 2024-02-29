@@ -9,6 +9,8 @@
     pulseaudio
     signal-desktop
     transmission-gtk
+    firefox
+    obsidian
     gimp
     wireshark
     keepassxc

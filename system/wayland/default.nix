@@ -25,7 +25,7 @@
       WLR_RENDERER = "vulkan";
       XDG_SESSION_TYPE = "wayland";
       SDL_VIDEODRIVER = "wayland";
-      XDG_CACHE_HOME = "/home/sioodmy/.cache";
+      XDG_CACHE_HOME = "/home/ruan/.cache";
       CLUTTER_BACKEND = "wayland";
       WLR_DRM_DEVICES = "/dev/dri/card1:/dev/dri/card0";
     };

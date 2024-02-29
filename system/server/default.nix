@@ -27,7 +27,7 @@
       add_header X-Frame-Options DENY;
       add_header X-Content-Type-Options nosniff;
     '';
-    virtualHosts."search.sioodmy.dev" = {
+    virtualHosts."search.ruan.dev" = {
       locations."/".proxyPass = "http://127.0.0.1:3000";
       extraConfig = ''
         access_log /dev/null;
@@ -43,7 +43,7 @@
 
   security.acme = {
     acceptTerms = true;
-    defaults.email = "hello@sioodmy.dev";
+    defaults.email = "ruangallio1@gmail.com";
   };
 
   services.schizosearch = {

@@ -13,7 +13,7 @@
     };
 
   user = {
-    owner = "sioodmy";
+    owner = "ruan";
     group = "users";
   };
 in {

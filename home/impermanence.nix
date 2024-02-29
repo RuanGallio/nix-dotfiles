@@ -1,12 +1,14 @@
 {lib, ...}: let
   inherit (lib) forEach;
 in {
-  home.persistence."/persist/home/sioodmy" = {
+  home.persistence."/persist/home/ruan" = {
     allowOther = true;
     directories =
       [
         "download"
         "music"
+        "projects"
+        "faculdade"
         "dev"
         "docs"
         "pics"

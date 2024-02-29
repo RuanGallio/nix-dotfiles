@@ -2,7 +2,7 @@
   imports = [
     ./media.nix
     ./vencord
-    ./schizofox.nix
+    ./firefox.nix
     ./rnnoise.nix
     ./swayidle.nix
   ];

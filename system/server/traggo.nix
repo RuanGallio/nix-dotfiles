@@ -14,8 +14,8 @@ in {
   environment = {
     systemPackages = [traggo-server];
     variables = {
-      TRAGGO_DEFAULT_USER_NAME = "sioodmy";
-      TRAGGO_DEFAULT_USER_PASS = "sioodmy";
+      TRAGGO_DEFAULT_USER_NAME = "ruan";
+      TRAGGO_DEFAULT_USER_PASS = "ruan";
     };
   };
 

@@ -114,15 +114,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    schizofox = {
-      url = "github:schizofox/schizofox";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        flake-parts.follows = "flake-parts";
-        nixpak.follows = "nixpak";
-      };
-    };
-
     schizosearch = {
       url = "github:sioodmy/schizosearch";
       inputs = {
@@ -176,6 +167,10 @@
     };
     home-manager = {
       url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    nur = {
+      url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     pre-commit-hooks = {
