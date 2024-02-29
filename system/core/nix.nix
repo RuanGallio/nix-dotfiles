@@ -9,7 +9,7 @@
 }: {
   environment = {
     # set channels (backwards compatibility)
-    sessionVariables.FLAKE = "/home/sioodmy/dev/dotfiles";
+    sessionVariables.FLAKE = "/home/ruan/dev/dotfiles";
     etc = {
       "nix/flake-channels/nixpkgs".source = inputs.nixpkgs;
       "nix/flake-channels/home-manager".source = inputs.home-manager;
@@ -71,7 +71,7 @@
     gc = {
       automatic = true;
       dates = "daily";
-      options = "--delete-older-than 3d";
+      options = "--delete-older-than 5d";
     };
     package = pkgs.nixUnstable;
 
